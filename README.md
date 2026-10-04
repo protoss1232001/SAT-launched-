@@ -9,7 +9,7 @@ A multi-year, fully offline study app for the **digital SAT**, from 8th grade th
 | --- | --- | --- |
 | **1. Foundations** | 8th–9th grade | Every phase 1 skill that is open, taken to mastery. Daily word review. |
 | **2. Advanced skills** | 10th grade | Advanced Math, harder data and geometry, and the Reading and Writing skills that need close reasoning. Timed modules for pacing. |
-| **3. Test mastery** | Summer before 11th grade, and 11th grade | Full adaptive practice tests, hard-question drills at test pace, and the official Bluebook practice tests. Opens for a section when its estimate reaches 650. |
+| **3. Test mastery** | Summer before 11th grade, and 11th grade | Full adaptive practice tests and the official Bluebook practice tests. A section's phase 3 opens when its estimate reaches 650. |
 
 **Math and Reading and Writing move through the phases separately**, each with its own tab, daily session, focus list and skill list, so Reading and Writing can run ahead while math waits for school.
 
@@ -40,11 +40,15 @@ Every skill on the College Board's digital SAT specification.
 ## Practice tests (Bluebook-style)
 - **Adaptive, like the real test.** Reading and Writing: 2 modules of 27 questions, 32 minutes each. Math: 2 modules of 22 questions, 35 minutes each. How Module 1 goes decides whether Module 2 is the harder or the easier version. A 10-minute break separates the sections in a full test.
 - **Test tools:** countdown timer that can be hidden (it turns red and reappears at 5 minutes), mark for review, answer cross-out, a passage highlighter, a question navigator and review page, typed-answer entry with a preview, the math reference sheet, and the Desmos graphing calculator.
-- **Timed single modules** (on the Math and Reading and Writing tabs) build pacing without the full test.
+- **Timed practice** (on the Math and Reading and Writing tabs) builds pacing without the full test: a **short set** of 10 questions (12 minutes for Reading and Writing, 16 for Math, the real test's pace) or a **full module** (27 or 22 questions). Neither gives a score estimate; misses go on the focus list.
+- **Hard drill:** 10 hard questions at test pace, drawn from the skills she has reached the hard level in (5 of 6 right at medium). It opens once 3 skills in a section get there, or when the section's estimate reaches 650.
 - **If the laptop falls asleep** mid-test, the clock stops for the gap and the result is marked as paused, the same as Save and exit.
 - **Scores** come from a simplified model and are shown as ranges. They are for tracking progress, not a prediction of an official score. The official Bluebook practice tests are the most accurate predictor; log their scores on the Progress tab.
 
 **Desmos:** the digital SAT has Desmos built in. To embed it here, a parent can request an API key at desmos.com/my-api (Desmos allows personal, non-commercial use) and paste it into Progress → Settings. Without a key, the Calculator button opens desmos.com/calculator in a new tab.
+
+## Explanations
+Every question has a worked explanation. Under it, **Explain another way** shows a different method: plugging in the answer choices, picking easy numbers, the Desmos steps, or for reading and writing a different way to reach the answer plus why each wrong choice fails. It appears after practice questions and on the test review page.
 
 ## Analytics
 - **Focus list.** Every missed question goes on that section's focus list (the same passage question, or a fresh question on the same math skill and level). Items come back in daily review and leave after two correct answers on later days. Misses on a practice test count only for skills already open, and blanks from running out of time do not count against a skill.
